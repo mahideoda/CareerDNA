@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+  background-image: radial-gradient(circle at 20% 20%, rgba(56, 189, 248, 0.12), transparent 40%),
+    radial-gradient(circle at 80% 10%, rgba(168, 85, 247, 0.12), transparent 38%),
+    radial-gradient(circle at 50% 80%, rgba(34, 211, 238, 0.08), transparent 45%);
+}
+
+.glass {
+  @apply rounded-2xl border border-white/10 bg-white/[0.06] shadow-[0_8px_40px_-12px_rgba(0,0,0,0.65)] backdrop-blur-2xl;
+}
+
+.glass-strong {
+  @apply rounded-2xl border border-cyan-400/20 bg-gradient-to-br from-white/[0.09] to-white/[0.03] shadow-[0_0_60px_-18px_rgba(34,211,238,0.35)] backdrop-blur-2xl;
+}
+
+.grid-overlay {
+  background-size: 48px 48px;
+  background-image: linear-gradient(to right, rgba(148, 163, 184, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(148, 163, 184, 0.06) 1px, transparent 1px);
+  mask-image: radial-gradient(circle at 50% 30%, black, transparent 70%);
+}
