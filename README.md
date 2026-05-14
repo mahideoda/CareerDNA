@@ -25,7 +25,7 @@ Backend:
 
 ## Live Links
 Frontend:
-[Add Lovable URL]
+https://careerdna-ai.lovable.app
 
 Backend:
 https://careerdna-cpn2.onrender.com/docs
