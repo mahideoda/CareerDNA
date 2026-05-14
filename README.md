@@ -32,3 +32,9 @@ https://careerdna-cpn2.onrender.com/docs
 
 GitHub:
 https://github.com/mahideoda/CareerDNA
+
+Demo video link:
+
+https://drive.google.com/file/d/1myOGfJNeH8VvU9pC2mnV79GUmXgZl0_Y/view?usp=drive_link
+https://drive.google.com/file/d/1EHdS9ydO10O9odCBlG8HugbvObn42fos/view?usp=drive_link
+
